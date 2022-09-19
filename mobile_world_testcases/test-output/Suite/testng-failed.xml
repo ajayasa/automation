@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="mobile.mainpage">
+        <methods>
+          <include name="sign_up_password"/>
+          <include name="contact_us_phonenumber" invocation-numbers="0 1 2"/>
+          <include name="contact_us_username"/>
+          <include name="launchapp"/>
+          <include name="sign_up_email" invocation-numbers="2"/>
+          <include name="sign_up_integration"/>
+          <include name="sign_up_bio" invocation-numbers="1"/>
+          <include name="sign_up_firstname" invocation-numbers="6"/>
+          <include name="contact_us_integration" invocation-numbers="0"/>
+          <include name="sign_up_lastname" invocation-numbers="7"/>
+          <include name="contact_us_message" invocation-numbers="0 1 2 3 4"/>
+          <include name="sign_up_mobilenumber"/>
+        </methods>
+      </class> <!-- mobile.mainpage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
